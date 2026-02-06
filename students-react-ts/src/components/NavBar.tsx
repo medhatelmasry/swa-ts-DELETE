@@ -3,7 +3,7 @@ import reactLogo from "../assets/react.svg";
 
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-sm bg-primary navbar-dark">
+        <nav className="navbar navbar-expand-sm bg-warning navbar-dark">
             <a className="navbar-brand" href="#">
                 <img src={reactLogo} width="30" height="30" alt="" />
                 School

@@ -19,10 +19,8 @@ export const router = createBrowserRouter([
                 path: "/",
                 element: (
                     <HomePage
-                        title={"Hello, welcome to students-react with Typescript!"}
-                        subtitle={"You can view some of your favorite students here."}
+                        title={"Students frontend powered by React."}
                     >
-                        Surely, school is fun.
                     </HomePage>
                 ),
             },
