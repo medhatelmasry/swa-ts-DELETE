@@ -1,9 +1,9 @@
-import {ReactNode} from "react";
+import { ReactNode } from "react";
 
 type HomePageProps = {
   title?: string;
   subtitle?: string;
-  children: ReactNode;
+  children?: ReactNode;
 };
 
 const HomePage = ({ title = "Title", subtitle = "Subtitle", children }: HomePageProps) => {
@@ -11,7 +11,7 @@ const HomePage = ({ title = "Title", subtitle = "Subtitle", children }: HomePage
     <div>
       <h1>{title}</h1>
       <h3>{subtitle}</h3>
-      <p>{children}</p>
+      {children && <p>{children}</p>}
     </div>
   );
 };
